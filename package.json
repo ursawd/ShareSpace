@@ -1,0 +1,33 @@
+{
+  "name": "sharespace-project",
+  "version": "1.0.0",
+  "description": "Portfolio Project",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ursawd/ShareSpace.git"
+  },
+  "author": "PDB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ursawd/ShareSpace/issues"
+  },
+  "homepage": "https://github.com/ursawd/ShareSpace#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
