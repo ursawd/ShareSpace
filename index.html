@@ -10,14 +10,103 @@
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <!-- Font Awesomw CSS -->
     <link
       rel="stylesheet"
       href="node_modules/font-awesome/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
+    <!-- End CSS -->
     <title>ShareSpace</title>
   </head>
   <body>
-    <h1 class="text-primary">boilerplate <i class="fa fa-bell"></i></h1>
+    <main class="container-fluid">
+      <div class="row" id="header">
+        <div class="col-12 bg-header-top d-flex">
+          <div>
+            <img class="mt-4 ml-4" src="./images/SS-logo.png" alt="Initials" />
+          </div>
+
+          <!-- navbar -->
+          <div class="mt-4 ml-auto">
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link text-dark" href="#">Membership</a>
+                  <a class="nav-link text-dark" href="#">Suites</a>
+                  <a class="nav-link text-dark" href="#">Drop In</a>
+                  <a class="nav-link text-dark" href="#">Community</a>
+                  <a class="nav-link text-dark" href="#">Contact</a>
+                </div>
+                <i class="fa fa-cart-plus fa-lg mr-3"></i>
+                <button class="bnt btn-warning btn-lg font-weight-bold">
+                  BOOK A TOUR
+                </button>
+              </div>
+            </nav>
+          </div>
+          <!-- end navbar -->
+        </div>
+        <div class="col-12 bg-header-bottom">
+          <div class="row">
+            <div class="col-6">
+              <p class="display-4 mt-5">LETS WORK TOGETHER</p>
+            </div>
+            <div class="col-6 mt-5">
+              <p class="lead">
+                SharedSpace Coworking is a shared office space designed to
+                foster great work and build community. Ideal for solo workers,
+                growing your business, or starting a new one.
+              </p>
+              <button class="btn btn-info btn-lg mt-5">Sign Me Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Row 1 -->
+      <section id="section1" class="row section-row">
+        <div class="col-12 text-center">
+          <p class="display-4 mt-5">MEMBERSHIP TYPES</p>
+        </div>
+        <div class="col-12 d-flex text-center justify-content-around mt-5">
+          <div class="col-md-3 position-relative">
+            <img src="./images/drop-in.jpg" width="400" alt="" />
+            <i class="dec-icon fa fa-share-alt fa-4x text-primary"></i>
+
+            <h2 class="mt-5">DROP IN</h2>
+            <p>Starting at $20/day</p>
+          </div>
+          <div class="col-md-3 position-relative">
+            <img src="./images/hot-desk.jpg" width="400" alt="" />
+            <i class="dec-icon fa fa-briefcase fa-4x text-warning"></i>
+
+            <h2 class="mt-5">HOT DESK</h2>
+            <p>Starting at $70/mo.</p>
+          </div>
+          <div class="col-md-3 position-relative">
+            <img src="./images/permanent-desk.jpg" width="400" alt="" />
+            <i class="dec-icon fa fa-phone fa-4x text-success"></i>
+            <h2 class="mt-5">PERMANENT DESK</h2>
+            <p>Starting at $375/mo.</p>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-5">
+          <button class="btn btn-warning btn-lg">DETAILS</button>
+        </div>
+      </section>
+      <!-- End Section Row 1 -->
+    </main>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

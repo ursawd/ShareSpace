@@ -1,0 +1,25 @@
+.bg-header-top {
+  background-color: antiquewhite;
+  background-image: url("images/open-office-main.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100vw;
+}
+.bg-header-bottom {
+  background-color: #e0a800;
+  height: 40vh;
+  width: 100vw;
+}
+nav a {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.section-row {
+  min-height: 110vh;
+}
+.dec-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
