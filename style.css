@@ -23,3 +23,16 @@ nav a {
   top: 0;
   left: 0;
 }
+#section2 {
+  background-color: antiquewhite;
+  background-image: url("images/coworkingsuites.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100vw;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2);
+}
+
+.sp10 {
+  margin-top: 10rem;
+}
