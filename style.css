@@ -36,3 +36,10 @@ nav a {
 .sp10 {
   margin-top: 10rem;
 }
+.sp7 {
+  margin: 0 12rem 0 12rem;
+}
+#section3 p {
+  line-height: 2;
+  text-align: center;
+}
