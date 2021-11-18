@@ -36,10 +36,28 @@ nav a {
 .sp10 {
   margin-top: 10rem;
 }
+.sp5 {
+  margin-top: 5rem;
+}
 .sp7 {
   margin: 0 12rem 0 12rem;
 }
+.sp8 {
+  margin-top: 8rem;
+}
+
 #section3 p {
   line-height: 2;
   text-align: center;
+}
+footer {
+  min-height: 60vh;
+}
+
+footer a {
+  color: #000;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: #000;
 }
