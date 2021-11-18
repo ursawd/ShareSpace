@@ -32,56 +32,88 @@
   <body>
     <main class="container-fluid">
       <div class="row" id="header">
-        <div class="col-12 bg-header-top d-flex">
-          <div>
-            <img id="logo" class="mt-4 ml-4" src="./images/SS-logo.png" alt="Initials" />
-          </div>
-
-          <!-- navbar -->
-          <div class="mt-4 ml-auto">
-            <nav class="navbar navbar-expand-md navbar-dark">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link text-dark" href="membership.html">Membership</a>
-                  <a class="nav-link text-dark" href="#">Suites</a>
-                  <a class="nav-link text-dark" href="#">Drop In</a>
-                  <a class="nav-link text-dark" href="#">Community</a>
-                  <a class="nav-link text-dark" href="index.html#section4">Contact</a>
-                </div>
-                <i id="cart" class="fa fa-cart-plus fa-lg mr-3"></i>
-                <button id="bookbtn" class="bnt btn-warning btn-lg font-weight-bold">
-                  BOOK A TOUR
+        <div class="col-12 bg-info min-vh-100">
+          <div class="d-flex">
+            <div>
+              <a href="index.html">
+                <img
+                  class="mt-4 ml-4"
+                  src="./images/SS-logo.png"
+                  alt="Initials"
+                />
+              </a>
+            </div>
+            <!-- navbar -->
+            <div class="mt-4 ml-auto">
+              <nav class="navbar navbar-expand-md navbar-dark">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-              </div>
-            </nav>
-          </div>
-          <!-- end navbar -->
-        </div>
-        <div class="col-12 bg-header-bottom">
-          <div class="row">
-            <div class="col-6">
-              <p class="display-4 mt-5">LETS WORK TOGETHER</p>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link text-dark" href="common-bp.html"
+                      >Membership</a
+                    >
+                    <a class="nav-link text-dark" href="#">Suites</a>
+                    <a class="nav-link text-dark" href="#">Drop In</a>
+                    <a class="nav-link text-dark" href="#">Community</a>
+                    <a class="nav-link text-dark" href="index.html#section4"
+                      >Contact</a
+                    >
+                  </div>
+                  <i id="cart" class="fa fa-cart-plus fa-lg mr-3"></i>
+                  <button
+                    id="bookbtn"
+                    class="bnt btn-warning btn-lg font-weight-bold"
+                  >
+                    BOOK A TOUR
+                  </button>
+                </div>
+              </nav>
             </div>
-            <div class="col-6 mt-5">
-              <p class="lead">
-                SharedSpace Coworking is a shared office space designed to
-                foster great work and build community. Ideal for solo workers,
-                growing your business, or starting a new one.
-              </p>
-              <button class="btn btn-info btn-lg mt-5">Sign Me Up</button>
+            <!-- end navbar -->
+          </div>
+          <!-- start page content -->
+          <div class="text-center text-white">
+            <br /><br />
+            <p class="font-weight-bold display-3">MEMBERSHIPS</p>
+            <p>Amenities that come with every in-person membership.</p>
+          </div>
+          <br /><br /><br />
+          <div
+            class="
+              d-flex
+              justify-content-around
+              text-uppercase text-center text-white
+            "
+          >
+            <div class="col-3 ml-5">
+              <p>3 PARKING OPTIONS</p>
+              <p>unlimited COFFEE + TEA</p>
+              <p>FULL KITCHEN</p>
+            </div>
+            <div class="col-4">
+              <p>access to 2500 sq. ft. of workspace</p>
+              <p class="mb-0">super fast wifi</p>
+              <p class="mb-t">322.26 download mbps / 34.71 upload mbps</p>
+              <p>4 BOOKABLE conference rooms</p>
+              <p>5 BREAKOUT BOOTHS</p>
+            </div>
+            <div class="col-3 mr-5">
+              <p>2 phone booths</p>
+              <p>PRINT CENTER</p>
+              <p>kitchenette</p>
             </div>
           </div>
+          <!-- end page content -->
         </div>
       </div>
       <!-- Section Row 1 -->
@@ -210,7 +242,7 @@
         <div class="col-6">
           <div class="mr-5">
             <br /><br /><br /><br /><br /><br />
-            <form class='lead'>
+            <form class="lead">
               <div class="form-row">
                 <div class="col-12">
                   <label>Name*</label>
@@ -224,7 +256,9 @@
                   </div>
                   <div class="form-group col-6">
                     <input type="text" class="form-control" id="lastName" />
-                    <label for="lastName" class="form-text text-muted">Last Name*</label>
+                    <label for="lastName" class="form-text text-muted"
+                      >Last Name*</label
+                    >
                   </div>
                 </div>
               </div>
@@ -234,7 +268,7 @@
               </div>
               <label for="tellUs">Tell us something about yourself*</label>
               <div class="form-group">
-                <textarea class="form-control" id="tellUs" rows="4"/></textarea>
+                <textarea class="form-control" id="tellUs" rows="4"></textarea>
               </div>
               <div class="form-group">
                 <label for="hearAbout">How did you hear about us?</label>
@@ -242,7 +276,9 @@
               </div>
 
               <div class="form-group">
-                <label for="membershipSelect">Which membership are you interested in?*</label>
+                <label for="membershipSelect"
+                  >Which membership are you interested in?*</label
+                >
                 <select class="form-control" id="membershipSelect">
                   <option>1 Day / Week</option>
                   <option>2 Days / Week</option>
@@ -253,7 +289,9 @@
                 </select>
               </div>
 
-              <button type="submit" class="my-5 btn btn-warning btn-lg">Let's Cowork</button>
+              <button type="submit" class="my-5 btn btn-warning btn-lg">
+                Let's Cowork
+              </button>
             </form>
           </div>
         </div>
@@ -264,33 +302,31 @@
       <!-- footer left side -->
       <footer class="row footer-row bg-warning">
         <div class="sp5 col-md-6">
-          <p class='display-4 mb-5 font-weight-bold'>SHARESPACE COWORKING</p>
-          <p class='h5 mt-5'>
-            132 E Pacific Ave
+          <p class="display-4 mb-5 font-weight-bold">SHARESPACE COWORKING</p>
+          <p class="h5 mt-5">132 E Pacific Ave</p>
+          <p class="h5">Spokane, WA 99201</p>
+          <p class="h5 mt-5">509-555-9586</p>
+          <p class="mt-5">
+            <i class="fa fa-instagram fa-2x mr-2"></i
+            ><i class="fa fa-facebook fa-2x"></i>
           </p>
-          <p class='h5'>
-            Spokane, WA 99201
-          </p>
-          <p class='h5 mt-5'>509-555-9586</p>
-          <p class='mt-5'><i class="fa fa-instagram fa-2x mr-2"></i><i class="fa fa-facebook fa-2x"></i></p>
         </div>
         <!-- footer right side -->
-        <div class=" h4 sp8 col-md-6 d-flex justify-content-center">
-          <div class="mr-5" >
-            <p class='h3' >Services</p>
-            <a class="" href="/memberships">Memberships</a><br>
-            <a href="/suites">Suites</a><br>
+        <div class="h4 sp8 col-md-6 d-flex justify-content-center">
+          <div class="mr-5">
+            <p class="h3">Services</p>
+            <a class="" href="/memberships">Memberships</a><br />
+            <a href="/suites">Suites</a><br />
             <a href="/drop-in-1">Drop In</a>
           </div>
-          <div class="ml-5" >
-            <p class='h3'>Who We Are</p>
-            <a href="/community">Community</a><br>
-            <a href="/contact">Contact</a><br>
+          <div class="ml-5">
+            <p class="h3">Who We Are</p>
+            <a href="/community">Community</a><br />
+            <a href="/contact">Contact</a><br />
           </div>
         </div>
-
       </footer>
-      
+
       <!-- End Footer -->
     </main>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->

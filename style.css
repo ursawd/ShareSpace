@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .bg-header-top {
   background-color: antiquewhite;
   background-image: url("images/open-office-main.jpeg");
