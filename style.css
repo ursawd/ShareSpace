@@ -31,10 +31,10 @@ nav a {
   min-height: 120vh;
 }
 #section1 {
-  min-height: 210vh;
+  min-height: 110vh;
 }
 #section3 {
-  min-height: 70vh;
+  min-height: 80vh;
 }
 .dec-icon {
   position: absolute;
@@ -44,6 +44,15 @@ nav a {
 #section2 {
   background-color: antiquewhite;
   background-image: url("images/coworkingsuites.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100vw;
+  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.2);
+}
+#section22 {
+  background-color: antiquewhite;
+  background-image: url("images/coworking.jpg");
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -88,4 +97,7 @@ footer a {
 }
 footer a:hover {
   color: #000;
+}
+section#included div p {
+  margin-top: 2rem;
 }
