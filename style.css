@@ -111,7 +111,7 @@ nav a {
   padding-top: 2.5rem;
 }
 footer {
-  min-height: 60vh;
+  min-height: 70vh;
 }
 
 footer a {
@@ -142,5 +142,11 @@ section#included div p {
     background: none;
     min-height: 15vh;
     background-color: rgba(0, 0, 0, 0.3);
+  }
+  .sp7 {
+    margin: 0;
+  }
+  footer {
+    min-height: 100vh;
   }
 }
