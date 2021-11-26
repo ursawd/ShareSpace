@@ -6,12 +6,12 @@ html {
   background-image: url("images/open-office-main.jpeg");
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  min-height: 75vh;
   width: 100vw;
 }
 .bg-header-bottom {
   background-color: #e0a800;
-  height: 40vh;
+  min-height: 40vh;
   width: 100vw;
 }
 .bg-community {
@@ -136,4 +136,11 @@ section#included div p {
   width: 100%;
   height: 200px;
   background-color: lightblue;
+}
+@media (max-width: 800px) {
+  .bg-header-top {
+    background: none;
+    min-height: 15vh;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
